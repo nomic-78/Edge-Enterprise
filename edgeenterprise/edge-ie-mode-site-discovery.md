@@ -133,7 +133,7 @@ Use the following procedure to create a sample report that uses three data sourc
 4. The first time you try to open the report, it will try to contact the server where it was created. When prompted to **Connect to Report Server**, click **No**.
 5. After the report opens, expand **Data Sources** and double-click **DataSource1**.
 6. In the **Data Source Properties** window, select **Use a connection embedded in my report** and then click the **Build...** button.
-7. In the **Connection Properties** window, select **Server Name** and enter the name of the Configuration Manager server. Then, in **Select or enter a database name** select the name of the Configuration Manager database from the dropdown list.
+7. In the **Connection Properties** window, select **Select Connection type:** and choose Microsoft SQL Server, select **Server Name** and enter the name of the Configuration Manager server. Then, in **Select or enter a database name** select the name of the Configuration Manager database from the dropdown list.
 8. Click **OK** to close the **Connection Properties** window.
 9. Click **Test Connection** to test the connection. If the connection is successful, click **OK** to close the **Data Source Properties** window.
 10. Repeat Steps 5 through 9 for **Data Source 2**.
@@ -159,7 +159,7 @@ Use the following procedure to create a sample report that uses one data source:
 8. Click **OK** to close the **Connection Properties** window.
 9. Click **Test Connection** to test the connection. If the connection is successful, click **OK** to close the **Data Source Properties** window.
 10. Expand **Datasets** and double-click **DataSet1**.
-11. In the **Dataset Properties** window, click in the **Query:** textbox and replace **USE CM_A1B** with the database name you selected in Step 7.
+11. In the **Dataset Properties** window, click in the **Query:** textbox and replace **CM_A1B** with the database name you selected in Step 7.
 12. In the **Home** tab of the ribbon, click the **Run** button to test the report.
 13. Save the report.
 14. Close Microsoft Report Builder.
@@ -173,7 +173,7 @@ After you've configured the reports for your environment, upload them to the rep
 2. In the **Report Server Connection** window, click **Connect** and then click on the URL listed under **Web Portal Site Identification**
 3. In the browser window that opens, you should be on the **SQL Server Reporting Services Page** - click the **ConfigMgr_SCCMSiteCode** folder for your SCCM Site Code.
 4. In the ribbon, hover over **+New** and click the **Folder** menu item.
-5. Enter a folder name, such as **Enterprise Site Discovery**, and then click the **Create** button.
+5. Enter a folder name, such as **Enterprise Site Discovery**, and then click the **Upload** button.
 6. Click on the **Enterprise Site Discovery** folder.
 7. In the ribbon, click the **Upload** button.
 8. Select the **Site Discovery** report, and click **OK**.
