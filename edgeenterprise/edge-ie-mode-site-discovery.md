@@ -173,7 +173,7 @@ After you've configured the reports for your environment, upload them to the rep
 2. In the **Report Server Connection** window, click **Connect** and then click on the URL listed under **Web Portal Site Identification**
 3. In the browser window that opens, you should be on the **SQL Server Reporting Services Page** - click the **ConfigMgr_SCCMSiteCode** folder for your SCCM Site Code.
 4. In the ribbon, hover over **+New** and click the **Folder** menu item.
-5. Enter a folder name, such as **Enterprise Site Discovery**, and then click the **Create** button.
+5. Enter a folder name, such as **Enterprise Site Discovery**, and then click the **Upload** button.
 6. Click on the **Enterprise Site Discovery** folder.
 7. In the ribbon, click the **Upload** button.
 8. Select the **Site Discovery** report, and click **OK**.
